@@ -32,8 +32,8 @@ jobs:
       - uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: Kimzz-42/yolks
-          password: Kimzstore12
+          username: https://github.com/Kimzz-42/yolks.git
+          password: dckr_pat_OPQc0nt45FGHpo6nGnFTKO5podg
       - uses: docker/build-push-action@v4
         with:
           context: ./nodejs
